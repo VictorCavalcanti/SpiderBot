@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_source\Spiderbot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_source\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{15125073-D3ED-3238-97D1-BAD39C7FAD66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

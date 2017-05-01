@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{2786876F-5794-362E-A0B9-4389D3833FBE}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Spiderbot</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Spiderbot.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Spiderbot</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Spiderbot.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Spiderbot</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Spiderbot.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Spiderbot</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Spiderbot.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Spiderbot</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\chrono_source\src;D:\chrono_source\src\chrono;D:\chrono_source\src\chrono\collision\bullet;D:\chrono_source\src\chrono\collision\gimpact;D:\chrono_source\src\chrono\collision\convexdecomposition\HACD;D:\chrono_build;C:\Program Files (x86)\irrlicht-1.8.2\include;C:\Python\Python36\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CHRONO_DATA_DIR="D:/chrono_source/data/";_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CHRONO_DATA_DIR=\"D:/chrono_source/data/\";_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\chrono_source\src;D:\chrono_source\src\chrono;D:\chrono_source\src\chrono\collision\bullet;D:\chrono_source\src\chrono\collision\gimpact;D:\chrono_source\src\chrono\collision\convexdecomposition\HACD;D:\chrono_build;C:\Program Files (x86)\irrlicht-1.8.2\include;C:\Python\Python36\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\chrono_source\src;D:\chrono_source\src\chrono;D:\chrono_source\src\chrono\collision\bullet;D:\chrono_source\src\chrono\collision\gimpact;D:\chrono_source\src\chrono\collision\convexdecomposition\HACD;D:\chrono_build;C:\Program Files (x86)\irrlicht-1.8.2\include;C:\Python\Python36\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Program Files (x86)\irrlicht-1.8.2\lib\Win64-visualStudio\Irrlicht.lib;D:\chrono_build\lib64\Release\ChronoEngine.lib;D:\chrono_build\lib64\Release\ChronoEngine_irrlicht.lib;D:\chrono_build\lib64\Release\_ChronoEngine_python_core.lib;D:\chrono_build\lib64\Release\ChronoEngine_pyparser.lib;D:\chrono_build\lib64\Release\_ChronoEngine_python_irrlicht.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_build/Debug/Spiderbot.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_build/Debug/Spiderbot.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\chrono_source\src;D:\chrono_source\src\chrono;D:\chrono_source\src\chrono\collision\bullet;D:\chrono_source\src\chrono\collision\gimpact;D:\chrono_source\src\chrono\collision\convexdecomposition\HACD;D:\chrono_build;C:\Program Files (x86)\irrlicht-1.8.2\include;C:\Python\Python36\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4275;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CHRONO_DATA_DIR="D:/chrono_source/data/";_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CHRONO_DATA_DIR=\"D:/chrono_source/data/\";_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\chrono_source\src;D:\chrono_source\src\chrono;D:\chrono_source\src\chrono\collision\bullet;D:\chrono_source\src\chrono\collision\gimpact;D:\chrono_source\src\chrono\collision\convexdecomposition\HACD;D:\chrono_build;C:\Program Files (x86)\irrlicht-1.8.2\include;C:\Python\Python36\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\chrono_source\src;D:\chrono_source\src\chrono;D:\chrono_source\src\chrono\collision\bullet;D:\chrono_source\src\chrono\collision\gimpact;D:\chrono_source\src\chrono\collision\convexdecomposition\HACD;D:\chrono_build;C:\Program Files (x86)\irrlicht-1.8.2\include;C:\Python\Python36\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Program Files (x86)\irrlicht-1.8.2\lib\Win64-visualStudio\Irrlicht.lib;D:\chrono_build\lib64\Release\ChronoEngine.lib;D:\chrono_build\lib64\Release\ChronoEngine_irrlicht.lib;D:\chrono_build\lib64\Release\_ChronoEngine_python_core.lib;D:\chrono_build\lib64\Release\ChronoEngine_pyparser.lib;D:\chrono_build\lib64\Release\_ChronoEngine_python_irrlicht.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_build/Release/Spiderbot.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_build/Release/Spiderbot.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\chrono_source\src;D:\chrono_source\src\chrono;D:\chrono_source\src\chrono\collision\bullet;D:\chrono_source\src\chrono\collision\gimpact;D:\chrono_source\src\chrono\collision\convexdecomposition\HACD;D:\chrono_build;C:\Program Files (x86)\irrlicht-1.8.2\include;C:\Python\Python36\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4275;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CHRONO_DATA_DIR="D:/chrono_source/data/";_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CHRONO_DATA_DIR=\"D:/chrono_source/data/\";_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\chrono_source\src;D:\chrono_source\src\chrono;D:\chrono_source\src\chrono\collision\bullet;D:\chrono_source\src\chrono\collision\gimpact;D:\chrono_source\src\chrono\collision\convexdecomposition\HACD;D:\chrono_build;C:\Program Files (x86)\irrlicht-1.8.2\include;C:\Python\Python36\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\chrono_source\src;D:\chrono_source\src\chrono;D:\chrono_source\src\chrono\collision\bullet;D:\chrono_source\src\chrono\collision\gimpact;D:\chrono_source\src\chrono\collision\convexdecomposition\HACD;D:\chrono_build;C:\Program Files (x86)\irrlicht-1.8.2\include;C:\Python\Python36\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Program Files (x86)\irrlicht-1.8.2\lib\Win64-visualStudio\Irrlicht.lib;D:\chrono_build\lib64\Release\ChronoEngine.lib;D:\chrono_build\lib64\Release\ChronoEngine_irrlicht.lib;D:\chrono_build\lib64\Release\_ChronoEngine_python_core.lib;D:\chrono_build\lib64\Release\ChronoEngine_pyparser.lib;D:\chrono_build\lib64\Release\_ChronoEngine_python_irrlicht.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_build/MinSizeRel/Spiderbot.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_build/MinSizeRel/Spiderbot.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\chrono_source\src;D:\chrono_source\src\chrono;D:\chrono_source\src\chrono\collision\bullet;D:\chrono_source\src\chrono\collision\gimpact;D:\chrono_source\src\chrono\collision\convexdecomposition\HACD;D:\chrono_build;C:\Program Files (x86)\irrlicht-1.8.2\include;C:\Python\Python36\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CHRONO_DATA_DIR="D:/chrono_source/data/";_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CHRONO_DATA_DIR=\"D:/chrono_source/data/\";_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\chrono_source\src;D:\chrono_source\src\chrono;D:\chrono_source\src\chrono\collision\bullet;D:\chrono_source\src\chrono\collision\gimpact;D:\chrono_source\src\chrono\collision\convexdecomposition\HACD;D:\chrono_build;C:\Program Files (x86)\irrlicht-1.8.2\include;C:\Python\Python36\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\chrono_source\src;D:\chrono_source\src\chrono;D:\chrono_source\src\chrono\collision\bullet;D:\chrono_source\src\chrono\collision\gimpact;D:\chrono_source\src\chrono\collision\convexdecomposition\HACD;D:\chrono_build;C:\Program Files (x86)\irrlicht-1.8.2\include;C:\Python\Python36\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Program Files (x86)\irrlicht-1.8.2\lib\Win64-visualStudio\Irrlicht.lib;D:\chrono_build\lib64\Release\ChronoEngine.lib;D:\chrono_build\lib64\Release\ChronoEngine_irrlicht.lib;D:\chrono_build\lib64\Release\_ChronoEngine_python_core.lib;D:\chrono_build\lib64\Release\ChronoEngine_pyparser.lib;D:\chrono_build\lib64\Release\_ChronoEngine_python_irrlicht.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_build/RelWithDebInfo/Spiderbot.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_build/RelWithDebInfo/Spiderbot.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_source\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HD:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_source" "-BD:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_build" --check-stamp-file "D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_source/CMakeLists.txt;D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_source\CMakeLists.txt;D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\3.6.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\3.6.2\CMakeCCompiler.cmake;D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;D:\chrono_build\cmake\ChronoConfig.cmake;D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_source\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HD:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_source" "-BD:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_build" --check-stamp-file "D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_source/CMakeLists.txt;D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_source\CMakeLists.txt;D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\3.6.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\3.6.2\CMakeCCompiler.cmake;D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;D:\chrono_build\cmake\ChronoConfig.cmake;D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_source\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HD:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_source" "-BD:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_build" --check-stamp-file "D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_source/CMakeLists.txt;D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_source\CMakeLists.txt;D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\3.6.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\3.6.2\CMakeCCompiler.cmake;D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;D:\chrono_build\cmake\ChronoConfig.cmake;D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_source\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HD:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_source" "-BD:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_build" --check-stamp-file "D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_source/CMakeLists.txt;D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_source\CMakeLists.txt;D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\3.6.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\3.6.2\CMakeCCompiler.cmake;D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;D:\chrono_build\cmake\ChronoConfig.cmake;D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_source\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_source\Spiderbot.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_build/ZERO_CHECK.vcxproj">
+      <Project>6176DA76-5D2E-3F1F-9A22-E619FE477B66</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

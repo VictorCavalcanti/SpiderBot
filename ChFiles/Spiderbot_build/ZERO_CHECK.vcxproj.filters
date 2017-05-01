@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\9a1499042948d2d761570ef68a649431\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EFD59FBF-6322-3004-BDF1-C986F96912D2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

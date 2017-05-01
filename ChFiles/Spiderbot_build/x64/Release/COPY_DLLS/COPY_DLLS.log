@@ -1,0 +1,57 @@
+﻿Build started 4/29/2017 2:48:44 PM.
+     1>Project "D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\COPY_DLLS.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_build/Release/"
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Program Files (x86)/irrlicht-1.8.2/bin/Win64-VisualStudio/Irrlicht.dll" "D:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_build/Release/"
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/chrono_build/bin/Release/ChronoEngine.dll "D:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_build/Release/"
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/chrono_build/bin/Release/ChronoEngine_irrlicht.dll "D:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_build/Release/"
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/chrono_build/bin/Release/ChronoEngine_pyparser.dll "D:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_build/Release/"
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       CustomBuild:
+         Building Custom Rule D:/Documents/ME - Graduate/Research/Projects/Project Chrono/SpiderBot/ChFiles/Spiderbot_source/CMakeLists.txt
+         CMake does not need to re-run because D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\CMakeFiles\generate.stamp is up-to-date.
+     1>Done Building Project "D:\Documents\ME - Graduate\Research\Projects\Project Chrono\SpiderBot\ChFiles\Spiderbot_build\COPY_DLLS.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.20

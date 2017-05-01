@@ -16,7 +16,7 @@ cmake_minimum_required(VERSION 2.8)
 # Modify the project name if you want: 
 #--------------------------------------------------------------
 
-project(SpiderBot_Simple)
+project(Spiderbot)
 
 #--------------------------------------------------------------
 # === 2 ===
@@ -77,7 +77,10 @@ endif()
 # of the requested modules.
 #--------------------------------------------------------------
 
-include_directories(${CH_PYTHONINC} ${CH_IRRLICHTINC})
+#include_directories(${CHRONO_INCLUDE_DIRS} ${CH_PYTHONINC} ${CH_IRRLICHTINC})
+#include_directories(${CH_PYTHONINC} ${CH_IRRLICHTINC})
+include_directories(${CHRONO_INCLUDE_DIRS})
+
 
 #--------------------------------------------------------------
 # Tweaks to disable some warnings with MSVC
@@ -96,7 +99,7 @@ endif()
 # files in your project. 
 #--------------------------------------------------------------
 
-add_executable(myexe Spiderbot_Simple.cpp)
+add_executable(Spiderbot Spiderbot.cpp)
 
 #--------------------------------------------------------------
 # Set properties for your executable target
@@ -107,7 +110,10 @@ add_executable(myexe Spiderbot_Simple.cpp)
 # install tree (if using an installed version of Chrono).
 #--------------------------------------------------------------
 
-set_target_properties(myexe PROPERTIES 
+list(APPEND ALL_DLLS "${CHRONO_DLLS}")
+set(ALL_DLLS "${ALL_DLLS}" PARENT_SCOPE)
+
+set_target_properties(Spiderbot PROPERTIES 
 	    COMPILE_FLAGS "${CHRONO_CXX_FLAGS} ${EXTRA_COMPILE_FLAGS}"
 	    COMPILE_DEFINITIONS "CHRONO_DATA_DIR=\"${CHRONO_DATA_DIR}\""
 	    LINK_FLAGS "${CHRONO_LINKER_FLAGS}")
@@ -116,8 +122,12 @@ set_target_properties(myexe PROPERTIES
 # Link to Chrono libraries and dependency libraries
 #--------------------------------------------------------------
 
-target_link_libraries(myexe ${CHRONO_LIBRARIES})
-
+# target_link_libraries(SpiderBot_Simple ${CH_IRRLICHTLIB} 
+        	# ChronoEngine
+            # ChronoEngine_pyparser
+            # ChronoEngine_irrlicht)
+target_link_libraries(Spiderbot ${CHRONO_LIBRARIES})
+#add_dependencies(SpiderBot_Simple ChronoEngine ChronoEngine_pyparser ChronoEngine_irrlicht)
 #--------------------------------------------------------------
 # === 4 (OPTIONAL) ===
 # 
