@@ -72,7 +72,7 @@ int main(int argc, char* argv[]) {
 	catch (ChException myerror) {
 		GetLog() << myerror.what();
 	}
-	std::cout << GetChronoDataFile("solid_works/Spider_Simple").c_str();
+	std::cout << GetChronoDataFile("solid_works/swiss_escapement").c_str();
 	// From this point, your ChSystem has been populated with objects and
 	// assets load from the .py files. So you can proceed and fetch
 	// single items, modify them, or add constraints between them, etc.
