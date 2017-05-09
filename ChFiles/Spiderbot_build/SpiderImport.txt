@@ -1,0 +1,614 @@
+SYSTEM ITEMS:
+
+List of the 50 added rigid bodies:
+  BODY:       ground
+  BODY:       body-1
+  BODY:       Spibot-LEG-1/limb_body_connector-1
+    MARKER:  LB-UL-Ref
+    MARKER:  LB-B-Act-1
+  BODY:       Spibot-LEG-1/limb_body_connector-2
+    MARKER:  LB-UL-Ref
+    MARKER:  LB-B-Act-1
+  BODY:       Spibot-LEG-1/Actuator_body-2
+    MARKER:  LL-Act-Base
+    MARKER:  UL-Act-Base
+  BODY:       Spibot-LEG-1/Actuator_rod-2
+    MARKER:  UL-Act-Shaft
+    MARKER:  LL-Act-Shaft
+  BODY:       Spibot-LEG-1/Actuator_rod-1
+    MARKER:  UL-Act-Shaft
+    MARKER:  LL-Act-Shaft
+  BODY:       Spibot-LEG-1/Actuator_body-1
+    MARKER:  LL-Act-Base
+    MARKER:  UL-Act-Base
+  BODY:       Spibot-LEG-1/upper_limb_con-1
+    MARKER:  UL-LL-Ref
+    MARKER:  UL-LB-Ref
+  BODY:       Spibot-LEG-1/lower_limb-1
+    MARKER:  LowerLimbCenterRef
+    MARKER:  LL-UL-Ref
+  BODY:       Spibot-LEG-4/limb_body_connector-1
+    MARKER:  LB-UL-Ref
+    MARKER:  LB-B-Act-1
+  BODY:       Spibot-LEG-4/Actuator_rod-1
+    MARKER:  UL-Act-Shaft
+    MARKER:  LL-Act-Shaft
+  BODY:       Spibot-LEG-4/Actuator_body-2
+    MARKER:  LL-Act-Base
+    MARKER:  UL-Act-Base
+  BODY:       Spibot-LEG-4/upper_limb_con-1
+    MARKER:  UL-LL-Ref
+    MARKER:  UL-LB-Ref
+  BODY:       Spibot-LEG-4/Actuator_rod-2
+    MARKER:  UL-Act-Shaft
+    MARKER:  LL-Act-Shaft
+  BODY:       Spibot-LEG-4/lower_limb-1
+    MARKER:  LowerLimbCenterRef
+    MARKER:  LL-UL-Ref
+  BODY:       Spibot-LEG-4/Actuator_body-1
+    MARKER:  LL-Act-Base
+    MARKER:  UL-Act-Base
+  BODY:       Spibot-LEG-4/limb_body_connector-2
+    MARKER:  LB-UL-Ref
+    MARKER:  LB-B-Act-1
+  BODY:       Spibot-LEG-5/upper_limb_con-1
+    MARKER:  UL-LL-Ref
+    MARKER:  UL-LB-Ref
+  BODY:       Spibot-LEG-5/limb_body_connector-2
+    MARKER:  LB-UL-Ref
+    MARKER:  LB-B-Act-1
+  BODY:       Spibot-LEG-5/Actuator_body-1
+    MARKER:  LL-Act-Base
+    MARKER:  UL-Act-Base
+  BODY:       Spibot-LEG-5/limb_body_connector-1
+    MARKER:  LB-UL-Ref
+    MARKER:  LB-B-Act-1
+  BODY:       Spibot-LEG-5/Actuator_body-2
+    MARKER:  LL-Act-Base
+    MARKER:  UL-Act-Base
+  BODY:       Spibot-LEG-5/Actuator_rod-2
+    MARKER:  UL-Act-Shaft
+    MARKER:  LL-Act-Shaft
+  BODY:       Spibot-LEG-5/lower_limb-1
+    MARKER:  LowerLimbCenterRef
+    MARKER:  LL-UL-Ref
+  BODY:       Spibot-LEG-5/Actuator_rod-1
+    MARKER:  UL-Act-Shaft
+    MARKER:  LL-Act-Shaft
+  BODY:       Spibot-LEG-6/limb_body_connector-1
+    MARKER:  LB-UL-Ref
+    MARKER:  LB-B-Act-1
+  BODY:       Spibot-LEG-6/Actuator_rod-2
+    MARKER:  UL-Act-Shaft
+    MARKER:  LL-Act-Shaft
+  BODY:       Spibot-LEG-6/limb_body_connector-2
+    MARKER:  LB-UL-Ref
+    MARKER:  LB-B-Act-1
+  BODY:       Spibot-LEG-6/Actuator_body-1
+    MARKER:  LL-Act-Base
+    MARKER:  UL-Act-Base
+  BODY:       Spibot-LEG-6/Actuator_rod-1
+    MARKER:  UL-Act-Shaft
+    MARKER:  LL-Act-Shaft
+  BODY:       Spibot-LEG-6/Actuator_body-2
+    MARKER:  LL-Act-Base
+    MARKER:  UL-Act-Base
+  BODY:       Spibot-LEG-6/upper_limb_con-1
+    MARKER:  UL-LL-Ref
+    MARKER:  UL-LB-Ref
+  BODY:       Spibot-LEG-6/lower_limb-1
+    MARKER:  LowerLimbCenterRef
+    MARKER:  LL-UL-Ref
+  BODY:       Spibot-LEG-2/upper_limb_con-1
+    MARKER:  UL-LL-Ref
+    MARKER:  UL-LB-Ref
+  BODY:       Spibot-LEG-2/Actuator_rod-1
+    MARKER:  UL-Act-Shaft
+    MARKER:  LL-Act-Shaft
+  BODY:       Spibot-LEG-2/Actuator_body-1
+    MARKER:  LL-Act-Base
+    MARKER:  UL-Act-Base
+  BODY:       Spibot-LEG-2/Actuator_rod-2
+    MARKER:  UL-Act-Shaft
+    MARKER:  LL-Act-Shaft
+  BODY:       Spibot-LEG-2/limb_body_connector-1
+    MARKER:  LB-UL-Ref
+    MARKER:  LB-B-Act-1
+  BODY:       Spibot-LEG-2/Actuator_body-2
+    MARKER:  LL-Act-Base
+    MARKER:  UL-Act-Base
+  BODY:       Spibot-LEG-2/limb_body_connector-2
+    MARKER:  LB-UL-Ref
+    MARKER:  LB-B-Act-1
+  BODY:       Spibot-LEG-2/lower_limb-1
+    MARKER:  LowerLimbCenterRef
+    MARKER:  LL-UL-Ref
+  BODY:       Spibot-LEG-3/Actuator_body-2
+    MARKER:  LL-Act-Base
+    MARKER:  UL-Act-Base
+  BODY:       Spibot-LEG-3/Actuator_rod-2
+    MARKER:  UL-Act-Shaft
+    MARKER:  LL-Act-Shaft
+  BODY:       Spibot-LEG-3/limb_body_connector-1
+    MARKER:  LB-UL-Ref
+    MARKER:  LB-B-Act-1
+  BODY:       Spibot-LEG-3/limb_body_connector-2
+    MARKER:  LB-UL-Ref
+    MARKER:  LB-B-Act-1
+  BODY:       Spibot-LEG-3/upper_limb_con-1
+    MARKER:  UL-LL-Ref
+    MARKER:  UL-LB-Ref
+  BODY:       Spibot-LEG-3/Actuator_rod-1
+    MARKER:  UL-Act-Shaft
+    MARKER:  LL-Act-Shaft
+  BODY:       Spibot-LEG-3/Actuator_body-1
+    MARKER:  LL-Act-Base
+    MARKER:  UL-Act-Base
+  BODY:       Spibot-LEG-3/lower_limb-1
+    MARKER:  LowerLimbCenterRef
+    MARKER:  LL-UL-Ref
+
+List of the 204 added links:
+  LINK:  Concentric1 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric1 [class chrono::ChLink * __ptr64]
+  LINK:  Distance1 [class chrono::ChLink * __ptr64]
+  LINK:  Distance1 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric2 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric2 [class chrono::ChLink * __ptr64]
+  LINK:  Distance2 [class chrono::ChLink * __ptr64]
+  LINK:  Distance2 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric3 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric3 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric4 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric4 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric5 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric5 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric6 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric6 [class chrono::ChLink * __ptr64]
+  LINK:  Distance3 [class chrono::ChLink * __ptr64]
+  LINK:  Distance3 [class chrono::ChLink * __ptr64]
+  LINK:  Distance4 [class chrono::ChLink * __ptr64]
+  LINK:  Distance4 [class chrono::ChLink * __ptr64]
+  LINK:  Distance5 [class chrono::ChLink * __ptr64]
+  LINK:  Distance5 [class chrono::ChLink * __ptr64]
+  LINK:  Distance6 [class chrono::ChLink * __ptr64]
+  LINK:  Distance6 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric3 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric3 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric4 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric4 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric6 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric6 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric11 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric11 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric12 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric12 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric13 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric13 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric17 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric17 [class chrono::ChLink * __ptr64]
+  LINK:  Parallel14 [class chrono::ChLink * __ptr64]
+  LINK:  Parallel15 [class chrono::ChLink * __ptr64]
+  LINK:  Distance10 [class chrono::ChLink * __ptr64]
+  LINK:  Distance10 [class chrono::ChLink * __ptr64]
+  LINK:  Distance11 [class chrono::ChLink * __ptr64]
+  LINK:  Distance11 [class chrono::ChLink * __ptr64]
+  LINK:  Distance12 [class chrono::ChLink * __ptr64]
+  LINK:  Distance12 [class chrono::ChLink * __ptr64]
+  LINK:  Distance13 [class chrono::ChLink * __ptr64]
+  LINK:  Distance13 [class chrono::ChLink * __ptr64]
+  LINK:  Distance14 [class chrono::ChLink * __ptr64]
+  LINK:  Distance14 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric21 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric21 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric22 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric22 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric3 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric3 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric4 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric4 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric6 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric6 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric11 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric11 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric12 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric12 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric13 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric13 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric17 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric17 [class chrono::ChLink * __ptr64]
+  LINK:  Parallel14 [class chrono::ChLink * __ptr64]
+  LINK:  Parallel15 [class chrono::ChLink * __ptr64]
+  LINK:  Distance10 [class chrono::ChLink * __ptr64]
+  LINK:  Distance10 [class chrono::ChLink * __ptr64]
+  LINK:  Distance11 [class chrono::ChLink * __ptr64]
+  LINK:  Distance11 [class chrono::ChLink * __ptr64]
+  LINK:  Distance12 [class chrono::ChLink * __ptr64]
+  LINK:  Distance12 [class chrono::ChLink * __ptr64]
+  LINK:  Distance13 [class chrono::ChLink * __ptr64]
+  LINK:  Distance13 [class chrono::ChLink * __ptr64]
+  LINK:  Distance14 [class chrono::ChLink * __ptr64]
+  LINK:  Distance14 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric21 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric21 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric22 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric22 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric3 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric3 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric4 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric4 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric6 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric6 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric11 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric11 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric12 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric12 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric13 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric13 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric17 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric17 [class chrono::ChLink * __ptr64]
+  LINK:  Parallel14 [class chrono::ChLink * __ptr64]
+  LINK:  Parallel15 [class chrono::ChLink * __ptr64]
+  LINK:  Distance10 [class chrono::ChLink * __ptr64]
+  LINK:  Distance10 [class chrono::ChLink * __ptr64]
+  LINK:  Distance11 [class chrono::ChLink * __ptr64]
+  LINK:  Distance11 [class chrono::ChLink * __ptr64]
+  LINK:  Distance12 [class chrono::ChLink * __ptr64]
+  LINK:  Distance12 [class chrono::ChLink * __ptr64]
+  LINK:  Distance13 [class chrono::ChLink * __ptr64]
+  LINK:  Distance13 [class chrono::ChLink * __ptr64]
+  LINK:  Distance14 [class chrono::ChLink * __ptr64]
+  LINK:  Distance14 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric21 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric21 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric22 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric22 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric3 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric3 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric4 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric4 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric6 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric6 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric11 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric11 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric12 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric12 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric13 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric13 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric17 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric17 [class chrono::ChLink * __ptr64]
+  LINK:  Parallel14 [class chrono::ChLink * __ptr64]
+  LINK:  Parallel15 [class chrono::ChLink * __ptr64]
+  LINK:  Distance10 [class chrono::ChLink * __ptr64]
+  LINK:  Distance10 [class chrono::ChLink * __ptr64]
+  LINK:  Distance11 [class chrono::ChLink * __ptr64]
+  LINK:  Distance11 [class chrono::ChLink * __ptr64]
+  LINK:  Distance12 [class chrono::ChLink * __ptr64]
+  LINK:  Distance12 [class chrono::ChLink * __ptr64]
+  LINK:  Distance13 [class chrono::ChLink * __ptr64]
+  LINK:  Distance13 [class chrono::ChLink * __ptr64]
+  LINK:  Distance14 [class chrono::ChLink * __ptr64]
+  LINK:  Distance14 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric21 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric21 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric22 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric22 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric3 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric3 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric4 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric4 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric6 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric6 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric11 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric11 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric12 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric12 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric13 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric13 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric17 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric17 [class chrono::ChLink * __ptr64]
+  LINK:  Parallel14 [class chrono::ChLink * __ptr64]
+  LINK:  Parallel15 [class chrono::ChLink * __ptr64]
+  LINK:  Distance10 [class chrono::ChLink * __ptr64]
+  LINK:  Distance10 [class chrono::ChLink * __ptr64]
+  LINK:  Distance11 [class chrono::ChLink * __ptr64]
+  LINK:  Distance11 [class chrono::ChLink * __ptr64]
+  LINK:  Distance12 [class chrono::ChLink * __ptr64]
+  LINK:  Distance12 [class chrono::ChLink * __ptr64]
+  LINK:  Distance13 [class chrono::ChLink * __ptr64]
+  LINK:  Distance13 [class chrono::ChLink * __ptr64]
+  LINK:  Distance14 [class chrono::ChLink * __ptr64]
+  LINK:  Distance14 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric21 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric21 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric22 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric22 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric3 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric3 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric4 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric4 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric6 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric6 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric11 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric11 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric12 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric12 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric13 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric13 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric17 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric17 [class chrono::ChLink * __ptr64]
+  LINK:  Parallel14 [class chrono::ChLink * __ptr64]
+  LINK:  Parallel15 [class chrono::ChLink * __ptr64]
+  LINK:  Distance10 [class chrono::ChLink * __ptr64]
+  LINK:  Distance10 [class chrono::ChLink * __ptr64]
+  LINK:  Distance11 [class chrono::ChLink * __ptr64]
+  LINK:  Distance11 [class chrono::ChLink * __ptr64]
+  LINK:  Distance12 [class chrono::ChLink * __ptr64]
+  LINK:  Distance12 [class chrono::ChLink * __ptr64]
+  LINK:  Distance13 [class chrono::ChLink * __ptr64]
+  LINK:  Distance13 [class chrono::ChLink * __ptr64]
+  LINK:  Distance14 [class chrono::ChLink * __ptr64]
+  LINK:  Distance14 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric21 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric21 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric22 [class chrono::ChLink * __ptr64]
+  LINK:  Concentric22 [class chrono::ChLink * __ptr64]
+
+List of other 0 added physic items:
+
+
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+item:class std::shared_ptr<class chrono::ChPhysicsItem>
+Press ENTER to continue...
